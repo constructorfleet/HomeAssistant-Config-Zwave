@@ -21,3 +21,6 @@ frontend:
 config:
 
 zwave: !include zwave.yaml
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml
