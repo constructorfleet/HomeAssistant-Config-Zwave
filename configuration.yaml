@@ -21,6 +21,9 @@ frontend:
 
 config:
 
+# Templates
+binary_sensor: !include_dir_list binary_sensors
+
 zwave: !include zwave.yaml
 
 mqtt: !include mqtt.yaml
