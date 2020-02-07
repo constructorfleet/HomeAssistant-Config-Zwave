@@ -4,7 +4,7 @@ homeassistant:
   elevation: !secret home_elevation
   unit_system: imperial
   time_zone: !secret home_timezone
-  name: Hubs
+  name: ZWave
   auth_providers:
     - type: trusted_networks
       trusted_networks:
@@ -20,9 +20,6 @@ http:
 frontend:
 
 config:
-
-# Templates
-binary_sensor: !include_dir_list binary_sensors
 
 zwave: !include zwave.yaml
 
