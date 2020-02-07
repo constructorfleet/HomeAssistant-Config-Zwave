@@ -1,7 +1,6 @@
 name: zwave
 publish_topic: events/slaves/zwave
 subscribe_topic: events/master
-state_topic: states
 ignore_event:
   - call_service
   - component_loaded
