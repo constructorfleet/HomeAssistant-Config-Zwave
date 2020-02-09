@@ -1,4 +1,3 @@
-name: zwave
 publish_topic: events/slaves/zwave
 subscribe_topic: events/master
 ignore_event:
