@@ -23,6 +23,9 @@ config:
 
 zwave: !include zwave.yaml
 
+# Templates
+binary_sensor: !include_dir_list binary_sensors
+
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
 # mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
