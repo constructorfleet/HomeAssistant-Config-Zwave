@@ -15,7 +15,7 @@ homeassistant:
     - type: homeassistant
 
 http:
-  base_url: http://zwave.constructorfleet.iot
+  base_url: https://zwave.automation.home.prettybaked.com
   
 frontend:
 
