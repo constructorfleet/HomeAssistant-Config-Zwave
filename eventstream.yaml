@@ -1,4 +1,6 @@
 publish_topic: events/slaves/zwave
+state_publish_topic: states/zwave
+state_publish_topic: true
 subscribe_topic: events/master
 subscribe_rules_topic: events/rules
 ignore_event:
