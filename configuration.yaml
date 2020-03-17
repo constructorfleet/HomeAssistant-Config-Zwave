@@ -23,7 +23,7 @@ config:
 
 zwave: !include zwave.yaml
 
-view_event: !include view_event.yaml
+# view_event: !include view_event.yaml
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
