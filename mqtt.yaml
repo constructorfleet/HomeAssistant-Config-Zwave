@@ -1,2 +1,21 @@
 broker: mqtt
 client_id: zwave
+birth_message:
+  topic: events/slaves/zwave/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.connected"
+      "event_data": "zwave"
+    }
+will_message:
+  birth_message:
+  topic: events/slaves/zwave/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.disconnected"
+      "event_data": "zwave"
+    }
