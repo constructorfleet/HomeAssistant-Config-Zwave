@@ -8,7 +8,9 @@ birth_message:
   payload: >
     {
       "event_type": "instance_state.connected",
-      "event_data": "zwave"
+      "event_data": {
+        "instance_name": "zwave"
+      }
     }
 will_message:
   topic: events/slaves/zwave/instance_state
@@ -17,5 +19,7 @@ will_message:
   payload: >
     {
       "event_type": "instance_state.disconnected",
-      "event_data": "zwave"
+      "event_data": {
+        "instance_name": "zwave"
+      }
     }
